@@ -40,13 +40,12 @@ export default function JokesScreen() {
         <div className="container">
           <h1 className="home-link">
             <Link to="/" title="Remix Jokes" aria-label="Remix Jokes">
-              <span className="logo">🤪</span>
-              <span className="logo-medium">J🤪KES</span>
+              <span className="logo-medium">JOKES</span>
             </Link>
           </h1>
           {data.user ? (
             <div className="user-info">
-              <span>{`Hi ${data.user.username}`}</span>
+              <span className="user-name">{`Hi , ${data.user.username}`}</span>
               <Form action="/logout" method="post">
                 <button type="submit" className="button">
                   Logout

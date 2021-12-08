@@ -45,6 +45,11 @@
   white-space: nowrap;
 }
 
+.jokes-header .user-name {
+ text-transform: capitalize;
+ font-weight: bold;
+}
+
 .jokes-main {
   padding-top: 2rem;
   padding-bottom: 2rem;
