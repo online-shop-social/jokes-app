@@ -6,7 +6,7 @@ async function seed() {
     data: {
       username: "noor",
       passwordHash:
-        "$2b$10$EJ8XxqkOiHeaAUfDhAz/meqIYRzr5LJsxEKanlPC1nyLJ//EJjygK",
+        "$2b$10$U9BcpmKgz2a71qpXYkfIn.UsUsfD6JW3.gua9sz89CSQr9Utb5CvW",
     },
   });
   await Promise.all(

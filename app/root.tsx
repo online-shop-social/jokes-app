@@ -25,6 +25,7 @@ export let links: LinksFunction = () => {
 export let meta: MetaFunction = () => {
   let description = `Learn Remix and laugh at the same time!`;
   return {
+    viewport: "width=device-width,initial-scale=1",
     description,
     keywords: "Remix,jokes",
     "twitter:image": "https://remix-jokes.lol/social.png",

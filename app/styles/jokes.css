@@ -29,10 +29,6 @@
   text-decoration: none;
 }
 
-.jokes-header .logo-medium {
-  display: none;
-}
-
 .jokes-header a:hover {
   text-decoration-style: wavy;
   text-decoration-thickness: 1px;
