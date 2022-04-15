@@ -1,5 +1,13 @@
 version: "3.9"
 services:
+  nodejs:
+    image: node:lts-alpine
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app
+    command: sh -c "npx prisma migrate dev --name init && yarn && yarn dev"
+    ports:
+      - "3000:3000"
   postgres:
     image: postgres:alpine
     restart: always
