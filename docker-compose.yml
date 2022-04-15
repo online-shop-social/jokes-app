@@ -5,17 +5,6 @@ services:
     working_dir: /usr/src/app
     volumes:
       - ./:/usr/src/app
-    command: sh -c "npx prisma migrate dev --name init && yarn && yarn dev"
+    command: sh -c "yarn && npx prisma migrate dev --name init && yarn dev"
     ports:
       - "3000:3000"
-  postgres:
-    image: postgres:alpine
-    restart: always
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=postgres
-    ports:
-      - "5432:5432"
-    volumes:
-      - ./postgres-data:/var/lib/postgresql/data
