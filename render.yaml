@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: jokesapp
+    env: node
+    plan: starter
+    buildCommand: yarn --frozen-lockfile --prod=false &&
+      npx prisma generate &&
+      remix build &&
+      npx prisma migrate deploy
+    startCommand: remix-serve build
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: jokesapp-db
+          property: connectionString
+      - key: SESSION_SECRET
+        generateValue: true
+
+databases:
+  - name: jokesapp-db
+    plan: starter
