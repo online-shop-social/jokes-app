@@ -4,9 +4,9 @@ services:
     env: node
     plan: starter
     buildCommand: yarn --frozen-lockfile --prod=false &&
-      npx prisma generate &&
       remix build &&
-      npx prisma migrate deploy
+      npx prisma migrate deploy &&
+      npx prisma db seed
     startCommand: remix-serve build
     envVars:
       - key: NODE_ENV
