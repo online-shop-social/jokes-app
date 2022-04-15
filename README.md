@@ -20,7 +20,7 @@ This is the finished version of [the tutorial](https://remix.run/docs/tutorials/
 
 - [Remix Docs](https://remix.run/docs)
 
-### One Click
+### One Click Deployment
 
 Use the button below to deploy Forem on Render.
 
