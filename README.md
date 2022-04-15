@@ -20,6 +20,12 @@ This is the finished version of [the tutorial](https://remix.run/docs/tutorials/
 
 - [Remix Docs](https://remix.run/docs)
 
+### One Click
+
+Use the button below to deploy Forem on Render.
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/online-shop-social/jokes-app)
+
 ## Development
 
 From your terminal:
@@ -49,4 +55,4 @@ npm start
 
 Open this example on [CodeSandbox](https://codesandbox.com):
 
-[![Open in codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/remix-run/remix/tree/main/examples/jokes)
+[![Open in codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/online-shop-social/jokes-app)
