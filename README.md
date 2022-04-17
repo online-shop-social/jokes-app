@@ -1,6 +1,6 @@
 ## One Click Deployment
 
-Use the button below to deploy Forem on Render.
+Use the button below to deploy on Render.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/online-shop-social/jokes-app)
 
