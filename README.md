@@ -1,26 +1,4 @@
-# Welcome to Remix!
-
-This example demonstrates some of the basic features of Remix, including:
-
-- Generating a new Remix project
-- Conventional files
-- Routes (including the nested variety ✨)
-- Styling
-- Database interactions (via `sqlite` and `prisma`)
-- Mutations
-- Validation
-- Authentication
-- Error handling: Both unexpected (the dev made a whoopsies) and expected (the end-user made a whoopsies) errors
-- SEO with Meta Tags
-- JavaScript...
-- Resource Routes
-- Deployment
-
-This is the finished version of [the tutorial](https://remix.run/docs/tutorials/jokes)
-
-- [Remix Docs](https://remix.run/docs)
-
-### One Click Deployment
+## One Click Deployment
 
 Use the button below to deploy Forem on Render.
 
